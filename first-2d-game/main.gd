@@ -47,6 +47,7 @@ func _on_mob_timer_timeout():
 
 
 func _on_score_timer_timeout():
+	$HUD.show_message("")
 	score += 1
 	$HUD.update_score(score)
 
