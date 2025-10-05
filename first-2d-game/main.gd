@@ -21,7 +21,6 @@ func new_game():
 
 
 func _on_mob_timer_timeout():
-	#test
 	# Create a new instance of the Mob scene.
 	var mob = mob_scene.instantiate()
 
